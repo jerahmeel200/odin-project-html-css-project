@@ -2,6 +2,12 @@
 body {
   font-family: "roboto", sans-serif;
 }
+.main {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -30,10 +36,11 @@ ul {
   margin-top: 5%;
   display: flex;
   gap: 50px;
+  justify-content: space-between;
 }
 
 .hero-left {
-  max-width: 45%;
+  max-width: 40%;
 }
 
 .hero-left > h1 {
@@ -41,10 +48,134 @@ ul {
   font-weight: 700;
   color: white;
 }
+.hero-left > p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #e5e7eb;
+}
+.hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  margin-left: 150px;
+}
+.hero-right div {
+  color: white;
+  font-weight: 700;
+}
+
+.hero-btn {
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+}
 .logo {
   font-size: 24px;
   color: white;
 }
 li {
+  color: white;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 50px 0 80px 0;
+}
+.card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.card-cont {
+  max-width: 300px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: 3px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 7px;
+  margin: 10px;
+}
+.random-text {
+  text-align: center;
+  max-width: 150px;
+}
+.quotes {
+  padding: 100px 0;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-cont {
+  max-width: 900px;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+}
+.owner {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+}
+.action {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #3882f6;
+  padding: 70px 30px;
+  border-radius: 10px;
+}
+
+.action-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action-info {
+  padding-left: 100px;
+}
+.action-info h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.action-info P {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.action-btn {
+  padding-right: 100px;
+}
+.action-btn button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 3px solid white;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer div {
   color: white;
 }
